@@ -1,0 +1,41 @@
+MULTI-PROJECT CONSTRUCTION COST RECORDER — OFFLINE APP
+=========================================================
+
+INCLUDED IN ZIP: index.html, manifest.webmanifest, sw.js, icons/
+DOWNLOADS: ZIP for PWA installation; standalone HTML for opening in a browser.
+
+HOW TO INSTALL AND USE ON ANDROID
+1. Unzip the ZIP and upload ALL files and the icons folder to an HTTPS website such as GitHub Pages.
+2. Visit the site in Android Chrome while ONLINE; select Install app from Chrome's menu.
+3. Open the app once while online; then try in Airplane mode.
+4. Choose an existing project or enter a new project name and tap Add Project.
+5. Enter materials, skilled workers, laborers and miscellaneous expenses for the chosen project.
+6. Use All Projects – Cost Summary to view overall total and open project histories.
+
+IMPORTANT: ZIP IS NOT AN APK. A file:// HTML page cannot become a proper installable PWA.
+
+DATA AND BACKUPS
+- All projects are stored locally on this device/browser, using localStorage.
+- This storage has no set expiration but is NOT permanent guaranteed storage. Clearing browser/site/app data, reinstalling, or device failure can destroy records.
+- Download Backup ALL Projects at least weekly. Keep a second copy outside your phone/computer (USB/cloud).
+- Backup is a single JSON that includes ALL projects and may be restored on another device.
+- Restore Backup REPLACES ALL existing projects on the current device; back up first.
+- For existing users on the same website/browser, v2 and original projectData records migrate into a single project automatically on first launch. Existing keys are not deleted.
+- Records stored under a different website/address or file:// context are NOT automatically accessible. Use a backup to move them.
+- Per-project Excel Export exports material/skilled/laborer/misc and summary sheets.
+- All Project Totals Excel Export exports per-project grand totals. Detailed records require per-project export or full JSON backup.
+- No internet is needed after the PWA app files have been cached and installed.
+- Records are NOT synced between devices. Avoid using different devices for different entries unless you manually reconcile them.
+
+OTHER FEATURES
+- Multiple independent projects and a combined spending overview
+- Rename projects; mark as completed and reopen for corrections
+- Delete one project only after two confirmations
+- Clear entries from the currently selected project without affecting others
+- 6-day and 7-day payroll reports (for selected project)
+- All calculations update automatically and changes auto-save
+
+STORAGE LIMITS
+- Browser localStorage usually offers around 5 MiB per origin, not a guaranteed record count.
+- Intended for small projects with text/number transactions; do not store photos or attachments.
+- Always verify saving and reloading on your actual device before entering important records.
